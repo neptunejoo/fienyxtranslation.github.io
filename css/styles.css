@@ -110,14 +110,14 @@
      * color-3(#f2d0a4)
      */
     --color-1: rgb(47,60,126);
-    --color-2: rgb(47,60,126);
+    --color-2: rgb(4, 21, 110);
     --color-3: rgb(253,213,201);
 
     /* theme color variations
      */
     --color-1-lighter: hsla(345, 93%, 64%, 1);
     --color-1-light  : hsla(345, 93%, 54%, 1);
-    --color-1-dark   : hsla(345, 93%, 34%, 1);
+    --color-1-dark   : rgb(23, 20, 212);
     --color-1-darker : rgb(47,60,126);
     --color-2-lighter: hsla(4, 79%, 83%, 1);
     --color-2-light  : hsla(4, 79%, 73%, 1);
@@ -2910,14 +2910,14 @@ input::-moz-focus-inner {
     font-size: calc(var(--text-size) * 10);
     line-height: 1;
     letter-spacing: -0.02em;
-    color: var(--color-text);
+    color: var(#2f3c7e);
     opacity: .1;
 }
 
 .section-title h3 {
     z-index: 2;
     font-weight: 500;
-    color: var(--color-1);
+    color: var(#565c64);
     padding-bottom: 2em;
     margin-top: 0;
     position: absolute;

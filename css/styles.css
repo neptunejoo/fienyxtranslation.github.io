@@ -109,16 +109,16 @@
      * color-2(#eb5e55)
      * color-3(#f2d0a4)
      */
-    --color-1: hsla(345, 93%, 44%, 1);
-    --color-2: hsla(4, 79%, 63%, 1);
-    --color-3: hsla(34, 75%, 80%, 1);
+    --color-1: rgb(47,60,126);
+    --color-2: rgb(47,60,126);
+    --color-3: rgb(253,213,201);
 
     /* theme color variations
      */
     --color-1-lighter: hsla(345, 93%, 64%, 1);
     --color-1-light  : hsla(345, 93%, 54%, 1);
     --color-1-dark   : hsla(345, 93%, 34%, 1);
-    --color-1-darker : hsla(345, 93%, 24%, 1);
+    --color-1-darker : rgb(47,60,126);
     --color-2-lighter: hsla(4, 79%, 83%, 1);
     --color-2-light  : hsla(4, 79%, 73%, 1);
     --color-2-dark   : hsla(4, 79%, 53%, 1);
@@ -167,15 +167,15 @@
     /* text
      */
     --color-text       : var(--color-gray-10);
-    --color-text-dark  : var(--color-white);
+    --color-text-dark  : var(--color-gray-13);
     --color-text-light : var(--color-gray-12);
     --color-placeholder: var(--color-gray-11);
 
     /* buttons
      */
     --color-btn                   : var(--color-gray-15);
-    --color-btn-text              : var(--color-white);
-    --color-btn-hover             : var(--color-white);
+    --color-btn-text              : var(--color-gray-11);
+    --color-btn-hover             : var(--color-gray-10);
     --color-btn-hover-text        : var(--color-black);
     --color-btn-primary           : var(--color-1);
     --color-btn-primary-text      : var(--color-white);
@@ -189,7 +189,7 @@
     /* others
      */
     --color-body  : var(--color-1);
-    --color-bg    : #14171B;
+    --color-bg    : rgb(253,213,201);
     --color-border: var(--color-gray-17);
 }
 
@@ -3477,7 +3477,7 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-hero {
-    background-color: #121417;
+    background-color: #FDD5C9;
     width: 100%;
     height: 100vh;
     min-height: calc(25.5 * var(--space));
@@ -3566,7 +3566,7 @@ input::-moz-focus-inner {
     font-weight: 400;
     font-size: 3.6rem;
     line-height: 1.444;
-    color: var(--color-white);
+    color: var(#2f3c7e);
     padding-left: 3.6em;
     position: relative;
 }
@@ -4089,7 +4089,7 @@ html.no-csstransitions .s-hero__content {
     font-size: var(--text-size);
     font-weight: 600;
     text-align: center;
-    color: white;
+    color: rgb(10, 10, 10);
     background-color: var(--color-1);
     height: var(--vspace-1_5);
     width: var(--vspace-1_5);
@@ -4331,7 +4331,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .folio-item__title {
-    color: white;
+    color: hsl(0, 8%, 3%);
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.5;
@@ -4382,7 +4382,7 @@ html.no-csstransitions .s-hero__content {
 .folio-item__project-link:hover, 
 .folio-item__project-link:focus, 
 .folio-item__project-link:active {
-    background-color: white;
+    background-color: rgb(22, 21, 21);
     border: 1px solid white;
     color: black;
 }
@@ -4568,7 +4568,7 @@ html.no-csstransitions .s-hero__content {
 .testimonial-slider p {
     font-size: var(--text-lg);
     line-height: 1.852;
-    color: white;
+    color: rgb(19, 17, 17);
 }
 
 .testimonial-slider__slide {
@@ -4697,7 +4697,7 @@ html.no-csstransitions .s-hero__content {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-1);
+    background-color: var(#616871);
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-2);
 }
@@ -4767,7 +4767,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-footer .h6 {
-    color: black;
+    color: rgb(240, 227, 227);
     margin-top: 0;
 }
 
